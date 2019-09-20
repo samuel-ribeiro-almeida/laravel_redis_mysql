@@ -1,18 +1,8 @@
 Image Docker:
 samuelribeiroalmeida/laravel_redis_mysql:latest
 
-$ docker-compose up -d
-
-Command to composer install
-curl -s https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin  --filename=composer
-
-
 $ docker exec -it app bash
 
-$ composer install
-$ cp .env.example .env
-$ php artisan key:generate
-$ php artisan config:cache
 $ php artisan migrate
 
 
