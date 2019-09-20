@@ -3,6 +3,10 @@ samuelribeiroalmeida/laravel_redis_mysql:latest
 
 $ docker exec -it app bash
 
+$ composer install
+$ cp .env.example .env
+$ php artisan key:generate
+$ php artisan config:cache 
 $ php artisan migrate
 
 
