@@ -1,4 +1,4 @@
-Image Path:
+Image Docker:
 samuelribeiroalmeida/laravel_redis_mysql:latest
 
 Command to composer install
